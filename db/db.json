@@ -1,0 +1,104 @@
+{
+  "ingredientes": {
+    "massas": [
+      {
+        "id": 1,
+        "tipo": "Fina"
+      },
+      {
+        "id": 2,
+        "tipo": "Integral"
+      },
+      {
+        "id": 3,
+        "tipo": "Sem gluten"
+      },
+      {
+        "id": 4,
+        "tipo": "Normal"
+      }
+    ],
+    "sabores": [
+      {
+        "id": 1,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 2,
+        "tipo": "4 queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Portuguesa"
+      },
+      {
+        "id": 4,
+        "tipo": "Marguerita"
+      },
+      {
+        "id": 5,
+        "tipo": "Mussarela"
+      },
+      {
+        "id": 6,
+        "tipo": "Frango com catupiry"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Borda com catupiry"
+      },
+      {
+        "id": 2,
+        "tipo": "Borda com cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Borda com catupiry e bacon"
+      },
+      {
+        "id": 4,
+        "tipo": "Borda de caramelo"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "pizzas": [
+    {
+      "nome": "Carla",
+      "massa": "Fina",
+      "sabor": "Marguerita",
+      "opcionais": [
+        "Borda com catupiry e bacon"
+      ],
+      "status": "Solicitado",
+      "id": "djqpamiFkaY"
+    },
+    {
+      "nome": "Julia Camini Veiga",
+      "massa": "Integral",
+      "sabor": "Frango com catupiry",
+      "opcionais": [
+        "Borda com catupiry",
+        "Borda com cheddar"
+      ],
+      "status": "Solicitado",
+      "id": "lmfpawZa7v4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
